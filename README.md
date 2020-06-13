@@ -3,6 +3,7 @@ Deep Learning based Mask Detector using OpenCV for Python. Convolution Neural Ne
 
 ## Prerequisites
   - Python (3.6)
+  - Numpy (1.18.4)
   - OpenCV (4.2.0)
   - Keras  (2.3.1)
   - Tensorflow (1.14.0)
@@ -22,6 +23,7 @@ Region of Interest - face, in this case, was isolated using Haar Cascade Classif
 detect faces from given frame and then passing it through trained model for predictions.
 
 ## Execute Code
+Create folders - `savedData` and `model` within project directory
   - `processData.py` to save numpy array data of images and labels in 'savedData' folder
   - `trainModel.py` to train your neural network and auto-save model in 'model' folder
   - `mainDetect.py` to run real time detection
@@ -31,5 +33,7 @@ detect faces from given frame and then passing it through trained model for pred
   - Using VGGNet as a base model for better accuracy in detection.
   - Training models on PyTorch.
 
-## Developments
-The next commit will use Caffe as a pretrained model to detect faces. A deep learning approach to isolate and grab ROI from the frame.
+## Future Developments
+  - The next commit will use Caffe as a pretrained model to detect faces. A deep learning approach to isolate and grab ROI
+  from the frame.
+  - Using YOLO with darknet to perform face detection.
