@@ -1,5 +1,5 @@
 # Mask-Detector-DL-OpenCV
-Deep Learning based Mask Detector using OpenCV for Python. Convolution Neural Network trained model using Keras on Tensorflow. 
+Deep Learning based Mask Detector using OpenCV for Python. Convolution Neural Network Model using Keras on Tensorflow. 
 
 ## Prerequisites
   - Python (3.6)
